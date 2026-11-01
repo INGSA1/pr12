@@ -1,0 +1,11 @@
+# Пример конфигурации окружения (скопировать в config.yaml)
+environment: test
+database:
+  host: localhost
+  port: 5432
+  name: orders_db
+order_statuses:
+  - new
+  - in_progress
+  - shipped
+  - closed
